@@ -1,2 +1,1 @@
- Automated testing Flux TodoMVC project with Protractor Using Jasmine and Mocha.
- 
+ Testing Reactjs Flux with Protractor using Jasmine and Motcha
