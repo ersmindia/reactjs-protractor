@@ -2,7 +2,7 @@ var Page = require('astrolabe').Page;
 module.exports = Page.create({
 
   url: {
-    value: 'http://localhost:8000'
+    value: 'http://localhost:5530'
   },
 
   getPageTitle: {

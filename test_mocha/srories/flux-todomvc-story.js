@@ -18,13 +18,11 @@ describe ('Todo list : Page', function(){
   it('should have proper title', function() {
     var pageTitle = todoHomePage.getPageTitle;
     expect(pageTitle).to.eventually.equal('todos');
-    browser.wait(3000);
   });
 
   it('Should have TextBox', function() {
     var todoEntry = todoHomePage.getTextBox;
     expect(todoEntry.isPresent()).to.eventually.equal(true);
-    browser.wait(3000);
   });
 
   it('Should have a placeholder in Textbox "What needs to be done?"', function() {
@@ -33,7 +31,6 @@ describe ('Todo list : Page', function(){
     //console.log(todoEntry);
     //console.log(todoEntry.getAttribute('placeholder'));
     expect(todoEntry.getAttribute('placeholder')).to.eventually.equal('What needs to be done?');
-    browser.wait(3000);
   });
 
   //describe('Where there is no item')
@@ -69,7 +66,6 @@ describe ('Todo list : Page', function(){
     selectOpion.click();
     firstList.getAttribute('class').then(function(className){
       expect(className).to.not.contain('completed'); 
-      browser.wait(3000);
     })
   });
   
