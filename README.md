@@ -17,9 +17,9 @@ The below gives you test results with Jasmine BDD framework.
 1. cd test_jasmine/
 2. protractor protractor.conf.js 
 
-The below gives you test results with Mocha BDD framework.
-1. cd ..
-2. cd test_mocha/
-3. protractor protractor.conf.js 
+The below gives you test results with Mocha BDD framework.<br/>
+1. cd ..<br/>
+2. cd test_mocha/<br/>
+3. protractor protractor.conf.js <br/>
 
 Enjoy the code.
